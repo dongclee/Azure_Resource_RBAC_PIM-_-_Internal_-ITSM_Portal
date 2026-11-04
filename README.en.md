@@ -47,6 +47,7 @@ Target Resource Group
         +--> Eligibility Schedule ID
         +--> Evidence SHA-256
 ```
+<img width="1599" height="984" alt="Azure-Resource-PIM-ITSM-Portal_Architecture" src="https://github.com/user-attachments/assets/aac736db-932d-413a-8a5c-410866879d97" />
 
 ### Identity Separation
 
@@ -186,9 +187,6 @@ The end user does not need Resource Group creation permission.
 ## 6\. Running the Launcher
 
 If the GitHub artifact is stored with a `.txt` suffix, rename it to `.ps1` before execution.
-
-```powershell
-Set-Location C:\\temp\\AzurePIMAPIforSHFG\\v2.0
 
 .\\Azure-Resource-PIM-ITSM-Portal-v2.0.7-Launcher.ps1
 ```
